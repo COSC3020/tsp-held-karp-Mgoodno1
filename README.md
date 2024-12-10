@@ -60,3 +60,4 @@ Traveling Salesperson Problem.
 Sources:
 Lecture Notes
 ChatGPT
+Videos on Youtube (Accidently closed tab with it, I can try to find it if need be)
