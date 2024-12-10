@@ -46,3 +46,18 @@ Test your new function; I've provided some basic testing code in `code.test.js`.
 What is the worst-case asymptotic time complexity of your implementation? What
 is the worst-case asymptotic memory complexity? Add your answer, including your
 reasoning, to this markdown file.
+
+
+Runtime analysis:
+Worst-Case Time Complexity: O(n^2 * 2^n)
+Worst-Case Memory Complexity: O(n * 2^n)
+
+These complexities arise because of the exponential number of possible subsets of cities and the fact that each state involves iterating over all cities to compute the next step. 
+While the Held-Karp algorithm is much more efficient than brute-force solutions (which would be: O(n!)). It still does suffer from exponential growth due to the NP-hard nature of the 
+Traveling Salesperson Problem.
+
+
+Sources:
+Lecture Notes
+ChatGPT
+Videos on Youtube (Accidently closed tab with it, I can try to find it if need be)
